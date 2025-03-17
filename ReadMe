@@ -1,6 +1,6 @@
-This screet automates tweets creation/generation from open ai and the makes the tweet on your behalf using your twitter developer account details
+This code automates tweets creation/generation from open ai and the makes the tweet on your behalf using your twitter developer account details
 
-### How to get started
+## How to get started
 After cloning or forking this project, visit the project directory.
 
  - create a virtual environment using venv "python3 -m venv env"
@@ -18,5 +18,5 @@ After cloning or forking this project, visit the project directory.
 - Run the script, "python main.py"
 
 
-NB: You can choose to deploy on any cloud provider of your choice. Just follow and I promise to follow bacl, give a star too.
+NB: You can choose to deploy on any cloud provider of your choice. Just ensure to drop me a star .
 You can also create issues incase of any bug/failure.   
