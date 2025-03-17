@@ -66,10 +66,10 @@ class TwitterBot:
             return {"state":0,"text":""}
 
     def post_tweet(self):
-        #Generate tweet from ai
-        tweet = self._generate_tweet_from_ai(PROMPT)
         
         try:
+            #Generate tweet from ai
+            tweet = self._generate_tweet_from_ai(PROMPT)
             # Post the tweet
             if tweet.get("state") == 1:
                 self.client.create_tweet(text=tweet.get("text"))
