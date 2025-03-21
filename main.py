@@ -21,8 +21,13 @@ open_ai_client = OpenAI(
 )
 
 PROMPT = """
-You have a knack at generating distinct engaging crypto,web3 and recent economic news twitter threads. You are to generate a humanized thread of not more than 500 words from any of this spaces.
-Ensure to use emojis where neccessary,make the tweet lively !!!!!!!!
+You have a knack at generating distinct engaging crypto, airdrops,  web3 and recent economic news twitter threads that looks like human written piece. You are to generate a humanized thread of not more than 500 words with a bolden heading from any of this 
+1. Web3 
+2. Crypto 
+3. Recent news(ensure to use https://www.coindesk.com and use recent articles not older than 24hours when writing threads on news).
+4. Airdrops : (Pick any RECENT airdrops from https://airdrops.io) and write extensive threads on the particular airdrop
+
+Ensure to use emojis where neccessary,make the tweet lively and human form, dont use hashtags, dont use markdowns and do not reference any links !!!!!!!!
 """
 
 # Set up logging

@@ -4,18 +4,26 @@ This code automates tweets creation/generation from open ai and the makes the tw
 After cloning or forking this project, visit the project directory.
 
  - create a virtual environment using venv "python3 -m venv env"
+
  - Install dependencies using "pip install -r requirements.txt"
+
  - Copy your consumer key, consumer secre key, access token and access token secret from your twitter developer account 
+
  - Get your open ai key from your open ai account
+
  - create a .env file and enter the following values
 
     CONSUMER_API_KEY=
+
     CONSUMER_API_KEY_SECRET=
+
     ACCESS_TOKEN=
+
     ACCESS_TOKEN_SECRET=
+    
     OPEN_AI_SECRET_KEY=
 
-- Run the script, "python main.py"
+- Run the script, "python3 main.py"
 
 
 NB: You can choose to deploy on any cloud provider of your choice. Just ensure to drop me a star .
